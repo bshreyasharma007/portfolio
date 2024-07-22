@@ -13,12 +13,12 @@ export const WorkPortfolio = () => {
         <WorkContainer
           prod_description="Fix Your Finance: SAAS platform to track your income and expenses, categorise transactions and assign them to a
          specific accounts"
-          tech_stack="Tailwind, React.js, Next.js, Lemon Squeezy, PostgreSQL, Drizzle, Hono, Plaid"
+          tech_stack="Tailwind, React.js, Next.js"
           imageSrc="/images/work-in-progress.png"
-          liveLinkSrc="dummy link"
-          visibleLiveLinkSrc="dummy link"
-          SourceCodeSrc="dummy link"
-          visibleSourceCodeSrc="dummy link"
+          liveLinkSrc="Comming Soon"
+          visibleLiveLinkSrc="Comming Soon"
+          SourceCodeSrc="Comming Soon"
+          visibleSourceCodeSrc="Comming Soon"
           CaseStudySrc="/fix-your-finance"
         />
 
@@ -37,10 +37,10 @@ export const WorkPortfolio = () => {
           prod_description="Wedding Planning: Wedding Planning is a platform where vendors can list their services and customer can book the services"
           tech_stack="Tailwind, React.js, Next.js, Prisma, MySQL"
           imageSrc="/images/work-in-progress.png"
-          liveLinkSrc="dummy link"
-          visibleLiveLinkSrc="dummy link"
-          SourceCodeSrc="dummy link"
-          visibleSourceCodeSrc="dummy link"
+          liveLinkSrc="Comming Soon"
+          visibleLiveLinkSrc="Comming Soon"
+          SourceCodeSrc="https://github.com/bshreyasharma007/wedding-planner"
+          visibleSourceCodeSrc="your-personal-wedding-planner"
           CaseStudySrc="/personal-wedding-planner"
         />
       </div>

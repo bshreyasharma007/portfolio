@@ -11,7 +11,8 @@ const LinkItem: React.FC<LinkProps> = ({ href, label, visible_href }) => {
   return (
     <div className="truncate overflow-hidden text-sm">
       <Link href={href} target="_blank">
-        {label} {visible_href}
+        <span className="text-green-950">{label}</span>{" "}
+        <span className="dark:text-yellow-500">{visible_href}</span>
       </Link>
     </div>
   )
@@ -45,10 +46,11 @@ export const WorkContainer: React.FC<WorkContainerProps> = ({
         </div>
         <div className="min-w-[200px] max-w-[650px] bg-[#91785D] text-white dark:bg-[#7B3F00] rounded-br-sm rounded-bl-sm px-4 pb-3">
           <div className="text-sm truncate overflow-hidden">
-            {prod_description}
+            <span className="">{prod_description}</span>
           </div>
           <div className="text-sm truncate overflow-hidden">
-            Tech Stack: {tech_stack}
+            <span className="text-green-950">Tech Stack:</span>{" "}
+            <span className="dark:text-yellow-500">{tech_stack}</span>
           </div>
           <LinkItem
             label="Live Link :"

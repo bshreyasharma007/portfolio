@@ -18,6 +18,7 @@ const YourAICompanion = () => {
             <a
               href="https://portfolio1.bshreyasharma.com/"
               className=" text-yellow-700 hover:text-blue-900 transition-all dark:text-yellow-400"
+              target="_blank"
             >
               https://portfolio1.bshreyasharma.com/
             </a>
@@ -25,10 +26,11 @@ const YourAICompanion = () => {
           <div className="text-xl">
             Source Code:{" "}
             <a
-              href="https://github.com/bshreyasharma007/ai-friend"
+              href="https://github.com/bshreyasharma007/your-ai-friend"
               className=" text-yellow-700 hover:text-blue-900 transition-all dark:text-yellow-400"
+              target="_blank"
             >
-              https://github.com/bshreyasharma007/ai-friend
+              https://github.com/bshreyasharma007/your-ai-friend
             </a>
           </div>
           <div className="pt-8  flex justify-center h-full">

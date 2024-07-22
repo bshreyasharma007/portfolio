@@ -26,11 +26,10 @@ export const HeroText = () => {
           giving it a tiny exercise ball to keep it occupied!{" "}
         </p>
         <p className="text-justify">
-          Despite my brain's best efforts to keep me on my toes, I've embraced
-          my natural inclination and found myself drawn towards building
-          applications which has the potential to solve real world problems that
-          are user friendly and powered by robust backend infrastructure serving
-          millions of users.{" "}
+          Over time I've embraced my natural inclination and found myself drawn
+          towards building applications which has the potential to solve real
+          world problems that are user friendly and powered by robust backend
+          infrastructure.{" "}
         </p>
       </div>
       <div className="flex gap-8">

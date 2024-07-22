@@ -3,7 +3,7 @@ import { HeroText } from "./Hero-text"
 import Image from "next/image"
 export const Hero = () => {
   return (
-    <div className=" min-h-[calc(100%-80px)] flex justify-center">
+    <div className=" min-h-[calc(100%-80px)] flex justify-center pt-10">
       <div className=" w-full max-w-screen-lg ">
         <div className=" h-full flex flex-col-reverse md:flex-row md:justify-center md:items-center pt-20">
           {" "}
